@@ -19,6 +19,8 @@ table {
     margin: 5% 0;
     table-layout: fixed;
     width: 714px;
+    background-color: #eeeed2;
+    color: #769656;
 }
 
 .tbl-left {
@@ -42,14 +44,6 @@ td {
     padding-right: 3px;
     background-size: 100%;
     transition: all 0.4s ease;
-}
-
-table {
-    background-color: #eeeed2;
-    color: #769656;
-    /* display: flex;
-    align-items: flex-start;
-    justify-content: left; */
 }
 
 tr:nth-child(2n) td:nth-child(2n+1) {
